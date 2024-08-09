@@ -43,10 +43,17 @@
             width: 100%;
             bottom: 0;
         }
-        .grid-container {
-            display: grid;
-            grid-template-columns: auto 1fr;
-            gap: 10px; /* adjust spacing between image and text */
+        .flex-container {
+            display: flex;
+            align-items: center; /* Vertically aligns the image with the text */
+        }
+        .flex-container img {
+            margin-right: 20px; /* Adjust spacing between the image and the text */
+            max-width: 220px; /* Set a maximum width for the image */
+            height: auto; /* Maintain the aspect ratio */
+        }
+        .flex-container p {
+            margin: 0; /* Remove default margin */
         }
     </style>
 </head>
@@ -65,7 +72,7 @@
 
 
     
-<div class=".grid-container">
+<div class="flex-container"">
     <h2>Home</h2>
     
     <img src="https://github.com/Xu-Zhang-Courant/xu-zhang-courant.github.io/blob/main/images/self_casual.jpg?raw=true" alt="My Selfie" width="216" height="400">
