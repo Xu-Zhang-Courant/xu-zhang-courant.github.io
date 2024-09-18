@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</Xu Zhang>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional: Link to your CSS file -->
+</head>
+<body>
+    <h1>Xu Zhang</h1>
+    <section>
+        <h2>Contact Information</h2>
+        <p>Personal Website: https://xu-zhang-courant.github.io/ </p>
+        <p>Email: xz4863@nyu.edu </p>
+        <p>Phone: (+1) 737-336-6165 </p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p><strong>NYU</strong> – Computer Science Master (Courant) (2026)</p>
+        <p><strong>UT Austin</strong> – Math Bachelor (2021 - 2024)</p>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+        <p><strong>Capgemini Automobile Manufacturer LLM-based Market Sentiment Analysis Pipeline </strong> – Capgemini (June 2024 – August 2024)</p>
+        <p>Co-developed a FastAPI server for hosting fine-tuned LLMs to extract key insights from market opinion on car parts in the client's products. Led the experiments on evaluating how vLLM enhances models’ performance (including Qwen, Chatglm, etc.) and manages multi-thread 
+requests through experiments on the FastAPI server we developed. Discovered and verified the crucial observation that using vLLM will result in outputs different from original models given fixed parameters 
+due to vLLM’s different implementation of attention kernel. </p>
+    </section>
+
+    <!-- Add more sections as needed -->
+</body>
+</html>
